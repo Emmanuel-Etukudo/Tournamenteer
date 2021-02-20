@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/add_team_dialog_header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Add a Team"
+        android:textSize="28dp"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/secondaryColor" />
+
+    <EditText
+        android:layout_weight="1"
+        android:id="@+id/input_team_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Team Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:layout_weight="1"
+        android:id="@+id/input_foundation_year"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Foundation Year"
+        android:inputType="date" />
+
+    <EditText
+        android:layout_weight="1"
+        android:gravity="center"
+        android:id="@+id/input_captain_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:hint="Captain Name"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:layout_weight="1.2"
+        android:id="@+id/add_team_submit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="submit"
+        android:textColor="@color/colorBlack"
+        android:background="@drawable/button_design"
+        android:gravity="center"
+        android:layout_below="@+id/input_captain_name"
+        android:layout_centerHorizontal="true" />
+
+</LinearLayout>

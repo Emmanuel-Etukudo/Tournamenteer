@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:scaleType="centerInside"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/tournamenteer_logo_h" />
+
+    <TextView
+        android:id="@+id/add_team_dialog_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="109dp"
+        android:text="Tournamentor Application"
+        android:textColor="@color/secondaryColor"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/intro1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/intro2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="60dp"
+        android:gravity="center"
+        android:text="It also allows the tournament participants to keep track of the status of the tournament including: game schedule, live score of games, league standings, participating teams, and score table."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <TextView
+        android:id="@+id/intro2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_team_dialog_header"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Tournamentor is a tournament management mobile application that allows amateur sport organizations to manage various aspects of the tournament they host."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+</RelativeLayout>

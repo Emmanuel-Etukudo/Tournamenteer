@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/gradient_background"
+    tools:context="ykim164cs242.tournamentor.Activity.Admin.AdminTournamentMenuActivity">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Manage Tournament"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/secondaryColor" />
+
+    <TextView
+        android:id="@+id/tournament_name_option"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="40dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="tournamentName"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:id="@+id/edit_tournament_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1"
+        android:text="Edit This Tournament"
+        android:textColor="@color/colorBlack"
+        android:background="@drawable/button_design"/>
+
+    <Button
+        android:id="@+id/add_tournament_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1"
+        android:text="Add a Tournament"
+        android:textColor="@color/colorBlack"
+        android:background="@drawable/button_design"/>
+
+    <Button
+        android:id="@+id/set_game_schedule_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1"
+        android:text="Set Game Schedules"
+        android:textColor="@color/colorBlack"
+        android:background="@drawable/button_design"/>
+
+    <Button
+        android:id="@+id/delete_tournament_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+
+        android:layout_weight="1"
+        android:text="Delete This Tournament"
+        android:textColor="@color/colorBlack"
+        android:background="@drawable/button_design"/>
+
+</LinearLayout>

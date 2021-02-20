@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1079875776234",
+    "firebase_url": "https://tournamentor-3e4f7.firebaseio.com",
+    "project_id": "tournamentor-3e4f7",
+    "storage_bucket": "tournamentor-3e4f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079875776234:android:e2d352f55a5c2ea5",
+        "android_client_info": {
+          "package_name": "ykim164cs242.tournamentor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079875776234-a8glbn6m7698j1craob27fkv6rpqdc4o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjmUeqjSns7KWoAZgXbVFEXrG-awU1cL8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="General">
+        <menu>
+            <group
+                android:id="@+id/nav_general_group"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_select_channel"
+                    android:icon="@mipmap/channel_icon"
+                    android:title="Select Channel" />
+
+                <item
+                    android:id="@+id/nav_team_list"
+                    android:icon="@mipmap/team_logo"
+                    android:title="Team List" />
+
+                <item
+                    android:id="@+id/nav_league_status"
+                    android:icon="@mipmap/league_status_icon"
+                    android:title="League Information" />
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="Settings">
+        <menu>
+            <group android:checkableBehavior="single"
+                android:id="@+id/nav_settings_group">
+                <item
+                    android:id="@+id/nav_notification"
+                    android:icon="@mipmap/notification_icon"
+                    android:title="Notification Setting" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Information">
+        <menu>
+            <group android:checkableBehavior="single"
+                android:id="@+id/nav_info_group">
+                <item
+                    android:id="@+id/nav_info"
+                    android:icon="@mipmap/info_icon"
+                    android:title="About Tournamentor" />
+                <item
+                    android:id="@+id/nav_faq"
+                    android:icon="@mipmap/faq_icon"
+                    android:title="FAQ" />
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@mipmap/share_icon"
+                    android:title="Tell a Friend" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
